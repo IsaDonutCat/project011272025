@@ -17,17 +17,26 @@
   text-align: left;
   color: black;
   width: 90%;
-  padding: 2%;
   margin: 20px;
   border-radius: 10px;
+  display: flex;
+  height: 30vh;
+  max-height: 30vh;
 }
 
-.card #companyLogo
+#companyLogo
 {
-  height: 100%;
+  height: inherit;
+  max-height: inherit;
   aspect-ratio: 1 / 1;
   object-fit: cover;
 }
+
+.card #info
+{
+  margin: 2%;
+}
+
 .card #companyName
 {
   margin: 5px 0px;

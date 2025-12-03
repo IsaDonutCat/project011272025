@@ -14,11 +14,11 @@ const App = () => {
    .catch(error => {
      console.error("Error fetching data:", error);
    });
-   }, []);}
+   };
 
-function Card (props)
+function Card (data)
 {
-    
+    App();
     return <div className="card">
                 <img id="companyLogo" src={logoImg} />
             <div id="info">
